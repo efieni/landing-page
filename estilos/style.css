@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints
+---------------------------------------
+Pequenas telas: Até 600px
+Celular: 600px até 768px
+Tablet: 768px até 992px
+Grandes telas: acima de 1200px */
+
+@font-face {
+    font-family: 'poppinsblack';
+    src: url('../fonts/poppins-black-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  
+  
+  
+  @font-face {
+    font-family: 'poppinsbold';
+    src: url('../fonts/poppins-bold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  
+  @font-face {
+    font-family: 'poppinslight';
+    src: url('../fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  
+  @font-face {
+    font-family: 'poppinsmedium';
+    src: url('../fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  @font-face {
+    font-family: 'poppinsregular';
+    src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  @font-face {
+    font-family: 'poppinssemibold';
+    src: url('../fonts/poppins-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
+  /* CORES
+
+Cor de fundo: rgb(34, 34, 34);
+Roxo: rgb(132, 14, 201);
+*/
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0 auto;
+}
+
+body, html {
+    margin: 20px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > nav > ul {
+    display: flex;
+    list-style: none;
+}
+
+header > nav > ul > li {
+    padding-left: 40px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding-top: 100px;
+    font-size: bold;
+    font-size: 1.8em;
+}
+
+span {
+    color: rgb(132, 14, 201);
+}
+
+p {
+    margin-top: 50px;
+    width: 40%;
+    font-size: .7em;
+}
+
+input {
+    display: block;
+    margin-top: 25px;
+    padding: 15px;
+    width: 25%;
+    border-radius: 15px;
+    border: 2px solid rgb(132, 14, 201);
+}
+
+input[type="submit"] {
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+    width: 15%;
+}
+
+aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+aside > img {
+    align-items: flex-start;
+}
